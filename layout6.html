@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            background-color: red;
+        }
+        .child1{
+            width: 50%;
+            height: 100%;
+            background-color: white;
+        }
+        .child2{
+            width: 50%;
+            height: 100%;
+            background-color: green;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .form{
+            background-color: white;
+         }
+         .heading{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            text-align: center;
+         }
+         .uname{
+            border: 0.5px solid gray;
+            padding: 8px;
+         }
+         .pword{
+            border: 0.5px solid grey;
+            padding: 8px;
+         }
+         .sign{
+            text-align: center;
+            border: 1px solid grey;
+            border-radius: 2px;
+            padding: 8px;
+            width: 100%;
+            background-color: green;
+         }
+         .p{
+            text-align: center;
+         }
+         .b{
+            color: gold;
+         }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <img src="dileep.jpg" height="100%" width="100%">
+        </div>
+        <div class="child2">
+            <form class="form">
+                <h1 class="heading">ACCOUNT-LOGIN</h1>
+                <input type="text" placeholder="USERNAME" class="uname">
+                <input type="password" placeholder="password" class="pword"><br><br>
+                <button class="sign">SIGN-IN</button><br>
+                <p class="p">forget <b class="b">user name/password</b></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
